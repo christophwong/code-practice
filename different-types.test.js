@@ -12,4 +12,5 @@ test('should give return number for types', () => {
     expect(solution([0, 0, 1, 1, 0, 0])).toBe(2)
     expect(solution([0, 2, 1, 2, 0, 3])).toBe(3)
     expect(solution([0, 2, 1, 2, 0, 3, 0 ,0])).toBe(4)
+    expect(solution([0, 2, 1, 3, 4, 5, 6 ,7, 3, 4])).toBe(5)
 })
